@@ -1,0 +1,30 @@
+QUS-1 How to create an object in Java?
+To create an object in Java, you need to use the new keyword followed by a call to a constructor of the class.
+
+QUS-2 What is the use of a new keyword in Java?
+The new keyword is used to create an instance of a class. It allocates memory for the new object and returns 
+a reference to that memory. It also invokes the constructor of the class to initialize the object’s fields.
+
+QUS-3 What are the different types of variables in Java?
+There are three types of variables in Java: local, instance, and static3.
+Local variables are declared inside a method or a block and are only visible within that scope. They do not 
+have a default value and must be initialized before use.
+
+Instance variables are declared inside a class but outside a method and are associated with an object of the 
+class. They have a default value depending on their data type and can be accessed by any method of the class.
+
+Static variables are declared inside a class with the static keyword and are shared among all the objects of the class. 
+They are also known as class variables and are initialized only once when the class is loaded.
+
+QUS-4 What is the difference between instance variable and local variable?
+The main difference between instance variable and local variable is that instance variable is a variable that is declared 
+in a class but outside a method, while a local variable is a variable declared within a method or a constructor. Moreover,
+ instance variables have a default value and can be accessed by any method of the class, while local variables do not have 
+ a default value and can be accessed only within the method or block where they are declared
+
+ QUS-5  In which area memory is allocated for instance variable and local variable?
+Instance variables are allocated memory in the heap area, while local variables are allocated memory in the stack area
+
+QUS=6 What is method overloading?
+Method overloading is a feature of Java that allows a class to have multiple methods with the same name but different 
+parameters.
